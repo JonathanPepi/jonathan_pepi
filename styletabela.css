@@ -1,0 +1,53 @@
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+.tabela{
+    overflow-x: auto;
+}
+table {
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+th{
+    border: 0px solid #0074d2;
+    padding: 8px;
+    text-align: center;
+    background-color: #0482ff;
+    white-space: nowrap; 
+}
+
+td {
+    border: 0px;
+    padding: 8px;
+    text-align: center;
+    background-color: #020032;
+    color: rgb(197, 197, 197);
+    white-space: nowrap; 
+    cursor: pointer;
+}
+
+.registrar{
+    margin-top: 10px;
+    background-color: #027afa;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 100px;
+}
+
+.botoes{
+    text-align: right;
+}
+
+.registrar:hover{
+    background-color: #0056b3;
+}

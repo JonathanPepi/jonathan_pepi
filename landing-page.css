@@ -1,0 +1,75 @@
+.timeline {
+  color: bisque;
+  text-align: center;
+}
+
+
+.timeline div {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#uptravels{
+  background-image: url('../../../assets/img/up-2.jpg');;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.textos{
+  width: 85%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+#serviços{
+  background-image: url('../../../assets/img/serviços.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pacotes{
+  background-image: url('../../../assets/img/pacotes.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#time{
+  background-image: url('../../../assets/img/times.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#aventura{
+  background-image: url('../../../assets/img/aventura.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#cabecalho.shrink {
+  padding: 10px 0px;
+}
+
+.parallax{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1{
+  margin: 0;
+}
+
+h2,h3{
+  margin-top: 0;
+}
